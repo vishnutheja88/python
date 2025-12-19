@@ -15,6 +15,6 @@ def check_even_odd() -> None:
     result = "Even" if is_even(num) else "Odd"
     print(f"The number {num} is: {result}")
 
-if __name__ == "__name__":
+if __name__ == "__main__":
     check_even_odd()
 
